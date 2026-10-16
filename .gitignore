@@ -1,0 +1,16 @@
+# Local configuration and private material must never be published.
+.env
+.env.*
+!.env.example
+
+# Common editor and operating-system files.
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+Desktop.ini
+
+# Local server and dependency artifacts.
+node_modules/
+__pycache__/
+*.py[cod]
